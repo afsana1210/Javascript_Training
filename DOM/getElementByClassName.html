@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <div id="main">
+            <p>Hello world</p>
+            <p>This example finds the element with id main and then finds all p elements inside "main":</p>
+        </div>
+        <p id="demo"></p>
+        <script>
+            let x=document.getElementsById("main");
+            let y=x.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML="The first paragraph inside main "+y[0].innerHTML;
+        </script>
+    </body>
+</html>
