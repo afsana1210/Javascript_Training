@@ -5,4 +5,5 @@ async function myfunction(){
     const result=await mypromise;
     console.log(result);
 }
-myfunction()
+myfunction();
+
