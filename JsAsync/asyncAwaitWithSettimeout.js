@@ -5,9 +5,10 @@ async function myfunction(){
         }, 2000);
     });
     const result=await mypromise;
-    //console.log(result);
-    return result;
+    console.log(result);
+    //return result;
 }
-myfunction().then(function(value){
-    console.log(value);
-})
+myfunction()
+// .then(function(value){
+//     console.log(value);
+// })

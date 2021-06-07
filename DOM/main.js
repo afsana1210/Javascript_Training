@@ -1,4 +1,5 @@
 //console.dir(document);
+console.log(document.documentElement);
 // console.log(document.domain);
 // console.log(document.URL);
  console.log(document.title);
@@ -19,3 +20,4 @@ console.log(y.innerHTML="hello");
 console.log(y.innerText="text");
 console.log(document.lastModified);
 console.log(document.links);
+console.log(document.scripts);
