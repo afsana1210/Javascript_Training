@@ -1,0 +1,17 @@
+<html>
+    <body onload="getCookies()">
+    <p id="demo"></p>
+    <script>
+        function getCookies(){
+        var text=" ";
+        if(navigator.cookieEnabled==true){
+            text="Cookies are enabled";
+        }else{
+            text="cookies are not  enabled";
+        }
+        document.getElementById("demo").innerHTML=text;
+        }
+    </script>
+
+    </body>
+</html>
