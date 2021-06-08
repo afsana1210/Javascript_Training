@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            li{
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <p id="demo">Hello world</p>
+        <ul id="myList">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Water</li>
+            <li>Soda</li>
+          </ul>
+          <button id="btn" onclick="myfunction()">Change list style</button>
+        <script>
+            document.getElementById("demo").style.color="red";
+           // document.getElementById("demo").style.display="none";
+            document.getElementById("demo").style.fontSize="x-large";
+            document.getElementById("demo").style.fontStyle="Italic";
+            document.getElementById("demo").style.fontVariant="small-caps";
+            document.getElementById("demo").style.textAlign="center";
+            //document.getElementById("demo").style.visibility="hidden";
+            document.getElementById("demo").style.visibility="visible";
+            
+            function myfunction(){
+                document.getElementById("myList").style.listStyle="decimal inside";
+                document.getElementById("myList").style.listStylePosition="inside";
+                document.getElementById("myList").style.textAlignLast="end";
+            }
+           
+        </script>
+    </body>
+    
+</html>
